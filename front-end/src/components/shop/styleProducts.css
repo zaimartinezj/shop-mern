@@ -1,0 +1,163 @@
+/*LIST PRODUCTS*/
+
+.containerItems{
+    margin: 1rem;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1024px;
+}
+
+@media screen and (max-width: 650px){
+    .containerItems{
+        grid-template-columns: 1fr !important;
+    }
+
+}
+
+.itemCard{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #F0F8FF;
+}
+
+.itemCard:hover{
+    cursor:pointer;
+    background-color:#dae2e9;
+}
+
+.imgProduct{
+    width: 75%;
+    height: 80%;
+}
+
+.titleProduct{
+    color: black;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.bottomProduct{
+    margin-top:5px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+/* modal */
+
+.modalBox{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    width: 80vw;
+    height: 75vh;
+    border: 0.1rem solid black;
+    background-color:white;
+    z-index:999;
+    padding: 0.5rem;
+}
+
+.imgProductModal{
+    width: 280px;
+    height: 320px;
+}
+
+.descProduct{
+    text-align: center;
+    color:rgba(0, 0, 0, 0.479);
+}
+
+.btnCloseModal{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.filterBox{
+
+    position: relative;
+    border: 0.1rem solid black;
+    display:flex;
+    justify-content:space-around;
+    width:100vw;
+}
+
+
+
+@media screen and (max-width:600px){
+    th, tr, td{
+        font-size: 12px;
+    }
+    .orderId{
+        font-size: 8px;
+    }
+    th{
+        padding:0;
+    }
+    table{
+        margin: 1rem;
+    }
+}
+
+.btnOrder{
+
+    border-radius: 0;
+}
+
+.disabled{
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: grey;
+}
+
+.cart-order-form{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.addComment {
+    resize: none;
+}
+
+.btnPag{
+    cursor:pointer;
+}
+
+.openModalBackGround{
+    position: relative;
+    background-color:rgba(0, 0, 0, 0.575);
+    width:100%;
+    height:100%;
+}
+
+.screen-table{
+    height: 90vh;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+
+.screen{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

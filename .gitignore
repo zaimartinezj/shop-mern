@@ -1,0 +1,4 @@
+node_modules/
+.env
+front-end/.env.development
+front-end/.env.production

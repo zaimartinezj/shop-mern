@@ -1,0 +1,62 @@
+{
+    "products":[
+        {
+            "_id":"car1",
+            "title":"Car 1",
+            "description":"About car 1",
+            "price": 20,
+            "color": "black",
+            "image":"cars/car1.jpg"
+
+    
+        },
+        {
+            "_id":"car2",
+            "title":"Car 2",
+            "description":"About car 2",
+            "price": 20,
+            "color": "black",
+            "image":"cars/car2.jpg"
+
+    
+        },
+        {
+            "_id":"car3",
+            "title":"Car 3",
+            "description":"About car 3",
+            "price": 20,
+            "color": "black",
+            "image":"cars/car2.jpg"
+
+    
+        },
+        {
+            "_id":"car4",
+            "title":"Car 4",
+            "description":"About car 4",
+            "price": 20,
+            "color": "black",
+            "image":"cars/car4.jpg"
+
+    
+        },
+        {
+            "_id":"car5",
+            "title":"Car 5",
+            "description":"About car 5",
+            "price": 20,
+            "color": "black",
+            "image":"cars/car5.jpg"
+
+    
+        },
+        {
+            "_id":"car6",
+            "title":"Car 6",
+            "description":"About car 6",
+            "price": 20,
+            "color": "black",
+            "image":"cars/car6.jpg"
+        }
+    ]
+}

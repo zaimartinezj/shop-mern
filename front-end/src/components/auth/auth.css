@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.loginBox{
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    justify-items: center;
+    text-align:center;
+}
+
+form{
+    margin:auto;
+    background-color: #e0e4e4;
+    border-radius: 20px;
+    border: 1px solid #17191b7a;
+    height: 500px;
+    padding: 20px;
+    width: 320px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.boxInput{
+    position: relative;
+    width: 100%;
+}
+
+.inputForm{
+    border: 1px solid #778899c5;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    outline: 0;
+    padding: 1rem;
+    width: 100%;
+    font-size: 14px;
+}
+
+.placeholder{
+    font-size: 12px;
+    position: absolute;
+    z-index: 999;
+    top: 30%;
+    left: 6%;
+    color:rgb(146, 149, 150);
+}
+
+.inputForm:focus + .placeholder{
+    font-size: 12px;
+    transform: translate(0,-78%);
+}
+
+.placeholderWithText{
+    font-size: 12px;
+    transform: translate(0,-78%);
+}
+
+input[type="submit"]{
+    padding: 5px;
+    width: 100%;
+    border: 1px;
+    background-color: #20B2AA;
+    border-radius: 3px;
+    cursor:pointer;
+    transition: background-color 1s ease;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color: #b1aeae;
+}
+
+
+
+
+
+.msgAuth{
+    text-transform: uppercase;
+    font-weight: 500;
+}
